@@ -15,6 +15,46 @@ public class Player {
         nickanem = builder.nickanem;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getLvl() {
+        return lvl;
+    }
+
+    public void setLvl(int lvl) {
+        this.lvl = lvl;
+    }
+
+    public int getAttack() {
+        return attack;
+    }
+
+    public void setAttack(int attack) {
+        this.attack = attack;
+    }
+
+    public int getDefence() {
+        return defence;
+    }
+
+    public void setDefence(int defence) {
+        this.defence = defence;
+    }
+
+    public String getNickanem() {
+        return nickanem;
+    }
+
+    public void setNickanem(String nickanem) {
+        this.nickanem = nickanem;
+    }
+
     static class Builder {
         private String name;
         private int lvl;
