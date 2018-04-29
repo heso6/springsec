@@ -1,4 +1,4 @@
-package pl.pawellukaszewski.springsec.models;
+package pl.pawellukaszewski.springsec.models.nothing;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package pl.pawellukaszewski.springsec.models;
+package pl.pawellukaszewski.springsec.models.nothing;
 
 public class Player {
     private String name;
@@ -55,7 +55,7 @@ public class Player {
         this.nickanem = nickanem;
     }
 
-    static class Builder {
+   public static class Builder {
         private String name;
         private int lvl;
         private int attack;
